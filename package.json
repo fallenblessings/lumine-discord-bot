@@ -1,0 +1,31 @@
+{
+  "name": "lumine-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for personal DM interactions",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon --exec ts-node index.ts",
+    "deploy": "ts-node deploy-commands.ts",
+    "build": "tsc",
+    "build:start": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "dm",
+    "personal"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.24.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

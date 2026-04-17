@@ -1,0 +1,6 @@
+export = {
+	EMBED_COLOR_PRIMARY: 0x9966CC,
+	EMBED_COLOR_ERROR: 0xff0000
+};
+
+
